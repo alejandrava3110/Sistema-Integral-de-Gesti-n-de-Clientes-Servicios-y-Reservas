@@ -367,7 +367,7 @@ def ejecutar_pruebas():
         registrar_log("ERROR", f"Operacion 12: {error}")
         print("Error esperado en operacion 12:", error)
 
-    # Camcelar reserva
+    # Cancelar reserva
     try:
         print(reserva1.cancelar())
     except Exception as error:
